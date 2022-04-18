@@ -1,0 +1,246 @@
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 50px 0px !important;
+  }
+  .container {
+    max-width: 100% !important;
+  }
+  .icon {
+    display: block !important;
+  }
+  .menu {
+    position: fixed;
+    top: 0px;
+    left: -102%;
+    max-width: 400px;
+    width: 100%;
+    height: 100vh;
+    background: #111111;
+    padding-top: 72px;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+  }
+
+  .menuActive {
+    left: 0% !important;
+  }
+
+  .iconHide {
+    display: none !important;
+  }
+
+  ul#mainMenuItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  ul#mainMenuItem li a {
+    color: #ffffff !important;
+    font-size: 20px;
+  }
+  .icon.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  ul#mainMenuItem li {
+    margin: 15px;
+  }
+
+  .leftContent h1 {
+    font-size: 30px !important;
+  }
+
+  .leftContent p {
+    font-size: 15px !important;
+  }
+
+  .leftContent button {
+    padding: 10px 0px !important;
+    width: 100px;
+  }
+
+  .inShape {
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  .upImg {
+    width: 270px !important;
+    right: 16px !important;
+  }
+
+  .leftCollectionBottomContent {
+    margin-top: 0px !important;
+  }
+
+  .singleFatured {
+    width: 48% !important;
+  }
+
+  .singleSnakers {
+    width: 48% !important;
+  }
+
+  .singleWomen {
+    padding: 20px !important;
+  }
+
+  .womenTopImg {
+    width: 180px !important;
+  }
+
+  .womenBottomContent h1 {
+    font-size: 20px;
+  }
+
+  .womenBottomContent p {
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+
+  .womenBottomContent a {
+    font-size: 12px;
+  }
+
+  .offRightImg {
+    right: 160px !important;
+  }
+
+  .offLeftContent h1 {
+    font-size: 30px;
+  }
+
+  .offLeftContent button {
+    margin: 0px auto;
+  }
+  .collectionWrapper {
+    justify-content: center !important;
+  }
+
+  .leftCollectionImg {
+    width: 50% !important;
+    margin-bottom: 30px;
+  }
+  .subscribeLeft h1 {
+    font-size: 19px !important;
+    margin: 2px 0px !important;
+  }
+  .offRightImg {
+    right: 90px;
+  }
+  .rightCollectionImg {
+    width: 100% !important;
+  }
+}
+
+/* mobile responsive */
+@media only screen and (max-width: 600px) {
+  .sliderWrapper {
+    justify-content: center !important;
+  }
+
+  .leftContent {
+    width: 100% !important;
+  }
+
+  .rightImg {
+    width: 100% !important;
+  }
+
+  .inShape {
+    margin: auto !important;
+  }
+
+  .upImg {
+    top: 440px !important;
+    right: 170px !important;
+  }
+  .leftContent h1 {
+    font-size: 30px !important;
+  }
+
+  .leftContent p {
+    font-size: 15px !important;
+  }
+
+  .leftContent button {
+    padding: 10px 0px !important;
+    width: 100px;
+  }
+
+  .inShape {
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  .upImg {
+    width: 270px !important;
+    right: 170px !important;
+  }
+
+  .singleFatured {
+    width: 100% !important;
+  }
+
+  .singleSnakers {
+    width: 100% !important;
+  }
+
+  .singleWomen {
+    padding: 20px !important;
+  }
+
+  .womenTopImg {
+    width: 180px !important;
+  }
+
+  .womenBottomContent h1 {
+    font-size: 20px;
+  }
+
+  .womenBottomContent p {
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+
+  .womenBottomContent a {
+    font-size: 12px;
+  }
+
+  .offRightImg {
+    right: 80px !important;
+  }
+
+  .offLeftContent h1 {
+    font-size: 30px;
+  }
+
+  .offLeftContent button {
+    margin: 0px auto;
+  }
+  .collectionWrapper {
+    justify-content: center !important;
+  }
+
+  .leftCollectionImg {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .singleWomen {
+    width: 100% !important;
+  }
+  .subscribeLeft {
+    margin-bottom: 25px !important;
+  }
+
+  .singleFoot {
+    width: 100% !important;
+  }
+}
